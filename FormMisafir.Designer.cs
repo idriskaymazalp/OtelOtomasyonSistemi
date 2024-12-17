@@ -74,7 +74,7 @@
             // labelMisafirID
             // 
             labelMisafirID.AutoSize = true;
-            labelMisafirID.ForeColor = SystemColors.Control;
+            labelMisafirID.ForeColor = SystemColors.ControlText;
             labelMisafirID.Location = new Point(187, 36);
             labelMisafirID.Name = "labelMisafirID";
             labelMisafirID.Size = new Size(21, 20);
@@ -98,7 +98,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.ForeColor = SystemColors.Control;
+            label5.ForeColor = SystemColors.ControlText;
             label5.Location = new Point(42, 171);
             label5.Name = "label5";
             label5.Size = new Size(92, 20);
@@ -108,7 +108,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.ForeColor = SystemColors.Control;
+            label4.ForeColor = SystemColors.ControlText;
             label4.Location = new Point(42, 138);
             label4.Name = "label4";
             label4.Size = new Size(86, 20);
@@ -118,32 +118,32 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.ForeColor = SystemColors.Control;
+            label3.ForeColor = SystemColors.ControlText;
             label3.Location = new Point(42, 101);
             label3.Name = "label3";
-            label3.Size = new Size(103, 20);
+            label3.Size = new Size(99, 20);
             label3.TabIndex = 22;
-            label3.Text = "Misafir Soyadı";
+            label3.Text = "Konuk Soyadı";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.ForeColor = SystemColors.Control;
+            label2.ForeColor = SystemColors.ControlText;
             label2.Location = new Point(42, 69);
             label2.Name = "label2";
-            label2.Size = new Size(81, 20);
+            label2.Size = new Size(77, 20);
             label2.TabIndex = 21;
-            label2.Text = "Misafir Adı";
+            label2.Text = "Konuk Adı";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.ForeColor = SystemColors.Control;
+            label1.ForeColor = SystemColors.ControlText;
             label1.Location = new Point(42, 36);
             label1.Name = "label1";
-            label1.Size = new Size(73, 20);
+            label1.Size = new Size(69, 20);
             label1.TabIndex = 20;
-            label1.Text = "Misafir ID";
+            label1.Text = "Konuk ID";
             // 
             // buttonFıltrele
             // 
@@ -193,7 +193,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.DarkSlateGray;
+            BackColor = Color.LightSteelBlue;
             ClientSize = new Size(800, 450);
             Controls.Add(buttonSil);
             Controls.Add(buttonGuncelle);
@@ -213,7 +213,7 @@
             ForeColor = SystemColors.ControlText;
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Name = "FormMisafir";
-            Text = "Misafir";
+            Text = "Konuk";
             ((System.ComponentModel.ISupportInitialize)dataGridMisafirler).EndInit();
             ResumeLayout(false);
             PerformLayout();

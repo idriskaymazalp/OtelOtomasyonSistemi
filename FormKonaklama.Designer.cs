@@ -84,7 +84,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.ForeColor = SystemColors.Control;
+            label5.ForeColor = SystemColors.ControlText;
             label5.Location = new Point(24, 161);
             label5.Name = "label5";
             label5.Size = new Size(92, 20);
@@ -94,7 +94,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.ForeColor = SystemColors.Control;
+            label4.ForeColor = SystemColors.ControlText;
             label4.Location = new Point(24, 128);
             label4.Name = "label4";
             label4.Size = new Size(86, 20);
@@ -113,7 +113,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.ForeColor = SystemColors.Control;
+            label6.ForeColor = SystemColors.ControlText;
             label6.Location = new Point(24, 194);
             label6.Name = "label6";
             label6.Size = new Size(65, 20);
@@ -130,22 +130,22 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.ForeColor = SystemColors.Control;
+            label7.ForeColor = SystemColors.ControlText;
             label7.Location = new Point(24, 57);
             label7.Name = "label7";
-            label7.Size = new Size(126, 20);
+            label7.Size = new Size(122, 20);
             label7.TabIndex = 50;
-            label7.Text = "Misafir Giriş Tarihi";
+            label7.Text = "Konuk Giriş Tarihi";
             // 
             // label8
             // 
             label8.AutoSize = true;
-            label8.ForeColor = SystemColors.Control;
+            label8.ForeColor = SystemColors.ControlText;
             label8.Location = new Point(24, 90);
             label8.Name = "label8";
-            label8.Size = new Size(127, 20);
+            label8.Size = new Size(123, 20);
             label8.TabIndex = 51;
-            label8.Text = "Misafir Çıkış Tarihi";
+            label8.Text = "Konuk Çıkış Tarihi";
             // 
             // dateTimePickerGırıs
             // 
@@ -178,7 +178,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.DarkSlateGray;
+            BackColor = Color.LightSteelBlue;
             ClientSize = new Size(976, 489);
             Controls.Add(buttonTemizle);
             Controls.Add(dateTimePickerCıkıs);

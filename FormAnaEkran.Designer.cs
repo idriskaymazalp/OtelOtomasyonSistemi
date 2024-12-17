@@ -56,7 +56,7 @@
             buttonMisafir.Padding = new Padding(12, 0, 0, 0);
             buttonMisafir.Size = new Size(258, 60);
             buttonMisafir.TabIndex = 9;
-            buttonMisafir.Text = "   Misafirler";
+            buttonMisafir.Text = "   Konuklar";
             buttonMisafir.TextAlign = ContentAlignment.MiddleLeft;
             buttonMisafir.TextImageRelation = TextImageRelation.ImageBeforeText;
             buttonMisafir.UseVisualStyleBackColor = true;
@@ -167,6 +167,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LightSteelBlue;
             ClientSize = new Size(947, 581);
             Controls.Add(pictureBox1);
             Controls.Add(panel2);

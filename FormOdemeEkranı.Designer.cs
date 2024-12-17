@@ -95,9 +95,9 @@
             label1.AutoSize = true;
             label1.Location = new Point(11, 23);
             label1.Name = "label1";
-            label1.Size = new Size(73, 20);
+            label1.Size = new Size(69, 20);
             label1.TabIndex = 2;
-            label1.Text = "Misafir ID";
+            label1.Text = "Konuk ID";
             // 
             // groupBox2
             // 
@@ -120,7 +120,7 @@
             groupBox2.Size = new Size(552, 236);
             groupBox2.TabIndex = 3;
             groupBox2.TabStop = false;
-            groupBox2.Text = "Misafir Bilgileri";
+            groupBox2.Text = "Konuk Bilgileri";
             // 
             // buttonMisafirSil
             // 
@@ -171,7 +171,7 @@
             buttonMisafirBilgileriGuncelle.Name = "buttonMisafirBilgileriGuncelle";
             buttonMisafirBilgileriGuncelle.Size = new Size(190, 29);
             buttonMisafirBilgileriGuncelle.TabIndex = 4;
-            buttonMisafirBilgileriGuncelle.Text = "Misafir Bilgilerini Güncelle";
+            buttonMisafirBilgileriGuncelle.Text = "Konuk Bilgilerini Güncelle";
             buttonMisafirBilgileriGuncelle.UseVisualStyleBackColor = true;
             buttonMisafirBilgileriGuncelle.Click += buttonMisafirBilgileriGuncelle_Click;
             // 
@@ -181,7 +181,7 @@
             buttonMisafirEkle.Name = "buttonMisafirEkle";
             buttonMisafirEkle.Size = new Size(143, 29);
             buttonMisafirEkle.TabIndex = 4;
-            buttonMisafirEkle.Text = "Misafir Kayıt Ekle";
+            buttonMisafirEkle.Text = "Konuk Kayıt Ekle";
             buttonMisafirEkle.UseVisualStyleBackColor = true;
             buttonMisafirEkle.Click += buttonMisafirEkle_Click;
             // 
@@ -222,18 +222,18 @@
             label3.AutoSize = true;
             label3.Location = new Point(11, 88);
             label3.Name = "label3";
-            label3.Size = new Size(103, 20);
+            label3.Size = new Size(99, 20);
             label3.TabIndex = 4;
-            label3.Text = "Misafir Soyadı";
+            label3.Text = "Konuk Soyadı";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Location = new Point(11, 56);
             label2.Name = "label2";
-            label2.Size = new Size(81, 20);
+            label2.Size = new Size(77, 20);
             label2.TabIndex = 3;
-            label2.Text = "Misafir Adı";
+            label2.Text = "Konuk Adı";
             // 
             // dateTimePickerCheckout
             // 
@@ -256,18 +256,18 @@
             label13.AutoSize = true;
             label13.Location = new Point(405, 105);
             label13.Name = "label13";
-            label13.Size = new Size(127, 20);
+            label13.Size = new Size(123, 20);
             label13.TabIndex = 21;
-            label13.Text = "Misafir Çıkış Tarihi";
+            label13.Text = "Konuk Çıkış Tarihi";
             // 
             // label12
             // 
             label12.AutoSize = true;
             label12.Location = new Point(405, 41);
             label12.Name = "label12";
-            label12.Size = new Size(126, 20);
+            label12.Size = new Size(122, 20);
             label12.TabIndex = 20;
-            label12.Text = "Misafir Giriş Tarihi";
+            label12.Text = "Konuk Giriş Tarihi";
             // 
             // label11
             // 
@@ -394,7 +394,7 @@
             // label19
             // 
             label19.AutoSize = true;
-            label19.Location = new Point(196, 154);
+            label19.Location = new Point(190, 146);
             label19.Name = "label19";
             label19.Size = new Size(24, 20);
             label19.TabIndex = 12;

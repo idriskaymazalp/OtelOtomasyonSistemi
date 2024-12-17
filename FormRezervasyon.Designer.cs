@@ -52,7 +52,7 @@
             // label2
             // 
             resources.ApplyResources(label2, "label2");
-            label2.ForeColor = SystemColors.Control;
+            label2.ForeColor = SystemColors.ControlText;
             label2.Name = "label2";
             // 
             // comboBoxOdalar
@@ -65,7 +65,7 @@
             // label1
             // 
             resources.ApplyResources(label1, "label1");
-            label1.ForeColor = SystemColors.Control;
+            label1.ForeColor = SystemColors.ControlText;
             label1.Name = "label1";
             // 
             // dateTimePickerCıkıs
@@ -89,8 +89,9 @@
             // label3
             // 
             resources.ApplyResources(label3, "label3");
-            label3.ForeColor = SystemColors.Control;
+            label3.ForeColor = SystemColors.ControlText;
             label3.Name = "label3";
+            label3.Click += label3_Click;
             // 
             // dataGridViewOdalar
             // 
@@ -103,7 +104,7 @@
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.DarkSlateGray;
+            BackColor = Color.LightSteelBlue;
             Controls.Add(dataGridViewOdalar);
             Controls.Add(label3);
             Controls.Add(buttonDevam);
