@@ -1,0 +1,1 @@
+"OtelOtomasyonSistemi" is a Windows Forms application developed for managing hotel operations, including reservation, accommodation, and payment processing. The system allows users to make reservations, track guest stays, and handle payments efficiently, offering a user-friendly interface for hotel management tasks.
